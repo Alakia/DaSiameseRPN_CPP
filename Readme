@@ -1,0 +1,26 @@
+# DaSiameseRPN_CPP
+Reimplementation of DaSiameseRPN visual object tracking algorithm by Libtorch.
+
+This is a coarse cpp implementation of DaSiameseRPN visual object tracking algorithm.
+
+The original version of the algorithm can be found at: https://github.com/foolwood/DaSiamRPN
+
+Thanks the original author for their excellent work.
+
+# Requirements
++ Libtorch 1.0
++ OpenCV > 2.4.13
++ Eigen > 3.0
+
+# Installation
+$ mkdir build
+
+$ cmake .. && make
+
+# Running
+download the converted model at:
+  + 链接: https://pan.baidu.com/s/1o_DG4G9ymTloEGPrxYhqNg 提取码: j97y
+
+place the downloaded model in the model folder
+
+running demo.
